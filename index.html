@@ -4,11 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beira Travels</title>
+
+    <!-- stylesheet
+                   ======================================= -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Icons[fontawsome] 
+                          =========================================-->
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.2.1-web/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.2.1-web/css/brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.2.1-web/css/solid.css"
+    />
   </head>
   <body>
     <header>
-      <!-- Navigation bar with links to other pages and logo-->
+      <!-- Navigation bar with links to other pages and logo 
+                                  =====================================================-->
       <nav>
         <div class="logo">
           <a href="index.html">
@@ -16,12 +35,12 @@
           </a>
         </div>
         <ul class="nav-links">
-          <li><a href="destinations.html">Destinations</a></li>
-          <li><a href="packages.html">Packages</a></li>
-          <li><a href="services.html">our services</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="destinations.html">DESTINATIONS</a></li>
+          <li><a href="packages.html">PACKAGES</a></li>
+          <li><a href="services.html">OUR SERVICES</a></li>
+          <li><a href="about-us.html">ABOUT US</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact-us.html">CONTACT US</a></li>
         </ul>
       </nav>
     </header>
@@ -41,47 +60,123 @@
         </div>
       </section>
 
-      <!-- Featured destinations or packages -->
-      <section class="featured">
-        <h2>Featured Destinations</h2>
-        <ul>
-          <li>
-            <img src="destination-1.jpg" alt="Destination 1" />
+      <!-- Featured destinations    
+                                  =========================================================-->
+      <section id="destinations">
+        <div class="heading-destinations"><h2>Popular Destinations</h2></div>
+        <div class="container-destinations">
+          <div class="destination">
+            <img src="package1.jpg" alt="destination 1" />
             <h3>Destination 1</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus nunc ut ligula sagittis iaculis.
+              Enjoy the beautiful beaches of Hawaii with this all-inclusive
+              package!
             </p>
-            <a href="#">Learn More</a>
-          </li>
-          <li>
-            <img src="destination-2.jpg" alt="Destination 2" />
+            <a href="#">Book now</a>
+          </div>
+          <div class="destination">
+            <img src="package2.jpg" alt="destination 2" />
             <h3>Destination 2</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus nunc ut ligula sagittis iaculis.
+              Explore the historic streets of Rome with this affordable package!
             </p>
-            <a href="#">Learn More</a>
-          </li>
-          <li>
-            <img src="destination-3.jpg" alt="Destination 3" />
+            <a href="#">Book now</a>
+          </div>
+          <div class="destination">
+            <img src="package3.jpg" alt="destination 3" />
             <h3>Destination 3</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              luctus nunc ut ligula sagittis iaculis.
+              Experience the magic of Disney World with this family-friendly
+              package!
             </p>
-            <a href="#">Learn More</a>
-          </li>
-        </ul>
+            <a href="#">Book now</a>
+          </div>
+        </div>
       </section>
+      <!-- End of featured destiations -->
+
+      <!-- Popular packages 
+                            =====================================================-->
+      <section id="popular-packages">
+        <div class="heading-packages"><h2>Popular Packages</h2></div>
+        <div class="container-packages">
+          <div class="package">
+            <img src="package1.jpg" alt="Package 1" />
+            <h3>Package 1</h3>
+            <p>
+              Enjoy the beautiful beaches of Hawaii with this all-inclusive
+              package!
+            </p>
+            <a href="#">Book now</a>
+          </div>
+          <div class="package">
+            <img src="package2.jpg" alt="Package 2" />
+            <h3>Package 2</h3>
+            <p>
+              Explore the historic streets of Rome with this affordable package!
+            </p>
+            <a href="#">Book now</a>
+          </div>
+          <div class="package">
+            <img src="package3.jpg" alt="Package 3" />
+            <h3>Package 3</h3>
+            <p>
+              Experience the magic of Disney World with this family-friendly
+              package!
+            </p>
+            <a href="#">Book now</a>
+          </div>
+        </div>
+      </section>
+      <!-- End of popular packages -->
     </main>
 
-    <footer>
-      <!-- Copyright -->
-      <p>&copy; 2023 Beira Travels. All rights reserved.</p>
+    <!-- Footer [Copied on each page] 
+                                      ==============================================-->
+    <footer style="background-image: url('./assets/footer/footer-BG.jpg')">
+      <div class="container-footer">
+        <div class="footer-top">
+          <div class="follow-us">
+            <h4>Follow Us</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo-footer">
+            <img
+              src="./assets/footer/footer-logo.png"
+              alt="Beira Travels Logo"
+            />
+            <p>Your company description goes here</p>
+          </div>
+          <div class="newsletter">
+            <h4>Newsletter</h4>
+            <form action="#">
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            <a href="http://">Terrms of service </a>
+            <a href="http://">| Privacy policy </a>
+            | &copy; 2023 Beira Travels. All rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
-    <!-- Script files -->
+
+    <!-- Script files 
+                      ==========================================================-->
     <script src="./js/slideshow-jquery.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
 </html>
